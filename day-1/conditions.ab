@@ -1,0 +1,26 @@
+let age = 20
+
+if age >= 16:
+  echo "Welcome"
+else:
+  echo "Entry not allowed"
+
+// If chain
+
+let drink = "cola"
+
+if {
+  drink == "water" {
+    echo "Hae a natural, mineralized water"
+  }
+  drink == "cola" {
+    echo "Here is your fresh cola"
+  }
+  else {
+    echo "Sorry, we have non of that"
+  }
+}
+
+let count = 10
+let candy = count > 1 then "candies" else "candy"
+echo "I have {count} {candy}"

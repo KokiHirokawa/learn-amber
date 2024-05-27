@@ -1,0 +1,9 @@
+let name = "John"
+
+name = "Rob"
+
+let name = "Bob"
+
+echo name
+
+// name = 10 # Cannot assign value of type 'Num' to a variable of type 'Text'

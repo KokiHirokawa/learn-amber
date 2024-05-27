@@ -1,0 +1,12 @@
+echo 12 + 24
+echo "Dog" + " & " + "Cat"
+echo "🍟"
+echo [1, 2] + [3, 4]
+
+echo ((12 + 34) * 9) % 4
+
+echo ("foo" != "bar") == true
+
+if 12 <= 18 and not false {
+  echo "🚀"
+}
