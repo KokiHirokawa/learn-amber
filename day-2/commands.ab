@@ -1,0 +1,24 @@
+// Error Handling
+
+$mv file.txt dest.txt$ failed {
+  echo "It seems that the file.txt does not exist"
+}
+
+// Getting the exit code
+
+let file_path = "./commands.ab"
+let result = $cat {file_path} | grep "file_path"$ failed {
+  echo "Error! Exit code: {status}"
+}
+echo result
+echo "The status code is: {status}"
+
+// Failure propagation
+
+// $test -d /path/to/file$? # The '?' operator can only be used in the main block or function body
+
+// command Modifiers
+
+silent unsafe $cat ./commands.abc$
+
+echo "Finished"
